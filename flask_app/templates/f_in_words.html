@@ -1,0 +1,20 @@
+<html>
+   <head>
+      <title>Словарь для изучения</title>
+   </head>
+   <body>
+      <header>
+         <h3>Напишите слова с переводом для дальнейшего изучения этих слов</h3>
+      </header>
+
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         English<br>
+         <input type = "text" name = "english" /></br>
+
+         Russian<br>
+         <input type = "text" name = "russian" /><br><br>
+         <input type = "submit" value = "Отправить" /><br>
+      </form>
+
+   </body>
+</html>
